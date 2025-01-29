@@ -1,0 +1,28 @@
+#b1{
+    position: fixed;
+    top: 1px;
+   font-size: 18px;
+   border-radius: 66px 0px 0px 66px;
+   width: 40px;
+   outline: none;
+   background-color: black;
+   border: 1px solid silver; 
+   transition: 1s;
+}
+#b2{
+    position: fixed;
+    top: 1px;
+    left:  45px;
+    font-size: 18px;
+    border-radius: 0px 66px 66px 0px;
+    width: 40px;
+    outline: none;
+    background-color: black;
+    border: 1px solid silver; 
+    transition: 1s;
+
+ }
+ #b1:hover,#b2:hover{
+    background: blue;
+    box-shadow: 1px 1px 10px gray;
+ }
